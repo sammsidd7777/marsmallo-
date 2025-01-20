@@ -1,0 +1,1389 @@
+@media only screen and (max-width: 800px) {
+
+
+
+
+    .box {
+        height: 70vh;
+
+
+    }
+
+    .box header {
+
+        height: 10vw;
+
+    }
+
+    .box header .h3 {
+        font-size: 2.7vw;
+
+    }
+
+    .box header nav a {
+        font-size: 1.2vw;
+
+    }
+
+
+
+
+    .box header nav button {
+        font-size: 1.2vw;
+
+    }
+
+
+
+
+
+    .box .detail {
+
+        margin-top: 10w;
+    }
+
+    .box .detail .left {
+        height: 60vh;
+
+
+    }
+
+    .box .detail .left h3 {
+        font-size: 2.3vw;
+
+        /* letter-spacing: 0.1vw; */
+    }
+
+
+
+    .box .detail .left button {
+
+        font-size: 1.1vw;
+
+    }
+
+    .box .detail .right {
+        height: 60vh;
+    }
+
+    .box .detail .right img {
+        height: 20vw;
+        width: 25vw;
+    }
+
+
+    .Creative {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        margin-top: 2vw;
+    }
+
+    .Creative h2 {
+        font-size: 1.8vw;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+
+
+
+
+
+    .box {
+        height: 70vh;
+        background-size: cover;
+        border: 0.1vw solid rgb(108, 144, 250);
+
+    }
+
+
+
+    .box header .h3 {
+        font-size: 3vw;
+
+    }
+
+    .box header nav a {
+        display: none;
+    }
+
+
+
+
+    .box header nav button {
+        font-size: 1.2vw;
+
+    }
+
+    .box header nav #iclick {
+        margin-top: 1vw;
+        /* position: absolute; */
+        height: 20vw;
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        background-color: red;
+    }
+
+    .box header nav i {
+        display: inline-block;
+        font-size: 1.6vw;
+        padding: 0vw 1vw;
+        color: white;
+    }
+
+    .box .detail {
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 5vw; */
+        width: 80vw;
+        /* margin-top: 8vw;    */
+    }
+
+    .box .detail .left {
+        height: 30vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        padding: 10vw 0vw 0vw 0vw;
+        /* background-color: pink; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .box .detail .left h3 {
+        font-size: 2.4vw;
+
+        width: 50vw;
+        letter-spacing: 0.1vw;
+    }
+
+    .box .detail .left p {
+        color: white;
+        font-size: 1.8vw;
+        width: 40vw;
+
+    }
+
+    .box .detail .left button {
+        width: 12vw;
+        height: 3.5vw;
+        font-size: 1.6vw;
+        background-color: #1998ff;
+        ;
+
+    }
+
+    .box .detail .right {
+        height: 30vh;
+        width: 80vw;
+
+    }
+
+    .box .detail .right img {
+        height: 29vw;
+        width: 35vw;
+    }
+
+
+    .Creative {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        margin-top: 2vw;
+    }
+
+    .Creative h2 {
+        font-size: 2.2vw;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .Creative h1 {
+        font-size: 2.5vw;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .Creative .one {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .Creative .one .box1 {
+        width: 35vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1.5vw;
+        margin: 1.5vw 1.5vw 1.5vw 0vw;
+        /* background-color: pink; */
+    }
+
+    .Creative .one .box1 img {
+        height: 5vw;
+        width: 5.5vw;
+    }
+
+    .Creative .one .box1 h4 {
+        font-size: 2.3vw;
+    }
+
+    .Creative .one .box1 p {
+        font-size: 1.8vw;
+        color: gray;
+        width: 30vw;
+    }
+
+    .Discover {
+        width: 80vw;
+        display: flex;
+        margin-top: 7vw;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .Discover .left {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+        width: 80vw;
+        text-align: center;
+        /* background-color: rgb(198, 50, 75); */
+    }
+
+    .Discover .left h3 {
+        width: 80vw;
+        font-size: 2.5vw;
+        text-align: center;
+
+    }
+
+    .Discover .left h2 {
+        font-size: 3vw;
+        width: 80vw;
+
+    }
+
+    .Discover .left h4 {
+        font-size: 2vw;
+
+
+    }
+
+    .Discover .left h5 {
+        width: 80vw;
+        font-size: 1.5vw;
+        font-weight: 700;
+        color: gray;
+    }
+
+    .Discover .left p {
+
+        font-size: 1.6vw;
+        /* font-weight: 700; */
+        /* color: rgb(156, 40, 40); */
+    }
+
+
+    .Discover .right {
+        display: grid;
+        place-items: center;
+
+        width: 80vw;
+        margin-top: 5vw;
+
+    }
+
+    .Discover .right img {
+        height: 28vw;
+        width: 38vw;
+    }
+
+    .Discover .right img:hover {
+        /* transform: translateY(2px);
+        transform: translateX(360px); */
+        rotate: 360deg;
+        /* background-color: red;s */
+        transition: 0.5s;
+    }
+
+    .slid {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        align-items: center;
+        margin-top: 4vw;
+    }
+
+    .slid .name {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .slid .name h1 {
+        font-size: 2vw;
+    }
+
+    .slid .name button {
+        font-size: 1.1vw;
+        padding: 0.6vw 1vw;
+        border: none;
+        background-color: white;
+        color: #1998ff;
+        ;
+        border-radius: 20px;
+        border: 1px solid #1998ff;
+        ;
+        font-size: 1.2vw;
+    }
+
+    .slid .name button:hover {
+        background-color: #1998ff;
+        ;
+        color: white;
+        font-size: 550;
+
+    }
+
+
+    .slid .slids {
+        width: 100%;
+        display: flex;
+        gap: 2vw;
+        overflow-x: hidden;
+
+    }
+
+    .slid .slids:hover {
+        overflow-x: visible;
+        transform: translateX(-2500px);
+        transition: 5s;
+        background-color: pink;
+        /* scale: 0.9; */
+        /* scale: 2; */
+
+    }
+
+    .slid .slids img {
+        border-radius: 20px;
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .round {
+        width: 15vw;
+        display: flex;
+        gap: 1vw;
+        font-size: 1.2vw;
+    }
+
+    .slid .four {
+        width: 80vw;
+        display: grid;
+        height: 5vw;
+        /* background-color: pink; */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 5vw;
+    }
+
+    .slid .four .box2 {
+        height: 3.5vw;
+        display: flex;
+        gap: 1vw;
+        /* width: 10vw; */
+
+    }
+
+    .slid .four .box2 h2 {
+        font-size: 2vw;
+    }
+
+    .slid .four .box2 p {
+        font-size: 1.5vw;
+
+    }
+
+    .pic {
+        margin-top: 4vw;
+        width: 100%;
+    }
+
+    .pic img {
+        width: 100%;
+    }
+
+    .logo4 {
+        width: 80vw;
+        height: 5vw;
+        margin-top: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo4 img {
+        width: 15vw;
+        height: 2.5vw;
+    }
+
+
+    .checkout {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+
+
+
+        margin-top: 5vw;
+    }
+
+    .checkout .one {
+        /* height: 10vw; */
+        display: flex;
+        /* background-color: pink; */
+        gap: 2vw;
+
+    }
+
+    .checkout .one .one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .checkout .one .one h3 {
+        font-size: 1.2vw
+    }
+
+    .checkout .one .one h1 {
+        font-size: 2.2vw;
+    }
+
+    .checkout .one h3 {
+        font-weight: 500;
+        /* font-size: 1.2vw;
+        background-color: pink; */
+    }
+
+    .checkout .one .two {
+        text-align: end;
+        width: 30vw;
+        font-size: 1.3vw;
+        display: flex;
+        justify-content: center;
+        gap: 1vw;
+        text-transform: capitalize;
+    }
+
+    .checkout .one .two i {
+        color: #1998ff;
+    }
+
+    .checkout .two {
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3vw;
+    }
+
+    .checkout .two .card {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 20vw;
+        height: 32vw;
+        display: flex;
+        margin: 1vw;
+        gap: 1.5vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+
+        /* border: 0.1vw solid rgba(200, 198, 198, 0.707); */
+    }
+
+
+    .checkout .two .card:nth-child(2) {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .checkout .two .card:nth-child(2) button {
+        background-color: #1998ff;
+        ;
+        color: white;
+    }
+
+    .checkout .two .card img {
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+
+    .checkout .two .card h1 {
+        color: #1998ff;
+        ;
+        font-size: 1.5vw;
+    }
+
+    .checkout .two .card h4 {
+        font-size: 1.2vw;
+    }
+
+    .checkout .two .card p {
+        width: 15vw;
+        letter-spacing: 0.1vw;
+        text-align: center;
+        line-height: 2vw;
+        padding: 1vw 0vw;
+        color: gray;
+        font-size: 1.1vw;
+    }
+
+    .checkout .two .card button {
+        padding: 0.7vw 1.5vw;
+        border: 1px solid #1998ff;
+        ;
+        background-color: white;
+        border-radius: 20px;
+        color: rgb(7, 36, 76);
+        font-size: 1.1vw;
+        text-transform: capitalize;
+    }
+
+
+    .checkout .two .card:hover {
+        background-color: #57c7d4;
+        ;
+        color: white;
+        transition: 2s;
+    }
+
+    .checkout .two .card:hover>h1 {
+        color: white;
+    }
+
+    .checkout .two .card:hover>p {
+        color: white;
+    }
+
+
+
+    .data {
+        width: 80vw;
+        display: flex;
+        margin-top: 5vw;
+    }
+
+    .data .left {
+        width: 40vw;
+        display: grid;
+        place-content: center;
+    }
+
+    .data .left img {
+        height: 28vw;
+        width: 28vw;
+    }
+
+    .data .right {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+
+    }
+
+    .data .right h1 {
+        font-size: 2.5vw;
+    }
+
+    .data .right p {
+        font-size: 1.3vw;
+    }
+
+    .data .right form {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .data .right form input {
+        height: 4vw;
+        width: 18vw;
+        font-size: 1.2vw;
+        padding-left: 1vw;
+        border: 1px solid rgba(19, 19, 19, 0.137);
+        border-radius: 5px;
+    }
+
+    .data .right form .name {
+        display: flex;
+        gap: 1.5vw;
+    }
+
+    .data .right form textarea {
+        height: 10vw;
+        margin-top: 1.5vw;
+        width: 37.5vw;
+        border: 1px solid rgba(19, 19, 19, 0.137);
+        border-radius: 5px;
+        padding: 1vw 2vw;
+        font-size: 1.1vw;
+    }
+
+    .data .right form button {
+        padding: 1vw 1.7vw;
+        width: 10vw;
+        background-color: #1998ff;
+        ;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid transparent;
+        font-size: 1.1vw;
+    }
+
+    .end {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vw;
+        background-color: #1998ff;
+        color: white;
+
+    }
+
+    .end .upper {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        height: 20vw;
+        margin-top: 3vw;
+    }
+
+    .end .upper .one {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5vw;
+        font-size: 1vw;
+    }
+
+    .end .upper .one .icon i {
+        font-size: 1.5vw;
+        /* background-color: #57ce08; */
+        padding: 1vw 1.5vw 1vw 0vw;
+    }
+
+    .end .upper .two {
+        display: flex;
+        /* background-color: red; */
+        gap: 2.5vw;
+    }
+
+    .end .upper .two .line {
+        display: flex;
+        /* background-color: pink; */
+        flex-direction: column;
+        padding: 0vw 1vw;
+        gap: 1vw;
+    }
+
+    .end .upper .two .line h4 {
+        font-size: 1.3vw;
+    }
+
+    .end .upper .two .line p {
+        font-size: 1.1vw;
+    }
+
+
+    /* .slid .four .box .div */
+
+    .end .down {
+        height: 5vw;
+        display: flex;
+        width: 100%;
+        padding: 0vw 8vw;
+        align-items: center;
+        gap: 1vw;
+        background-color: #57c7d4;
+        justify-content: space-between;
+    }
+
+    .end .down h1 {
+        font-size: 2vw;
+    }
+
+    .end .down p {
+        font-size: 1.2vw;
+    }
+
+    .end .down a {
+        font-size: 0.9vw;
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 450px){
+   
+ 
+    
+    .box{
+        
+        width: 100%;
+        background-image: url(backgraund.svg);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 70vh;
+       
+    }
+    
+    .box header{
+        width: 96vw;
+        height: 15vw;
+        align-items: center;
+        justify-content: space-between; 
+     
+        position: fixed;
+        
+       
+       
+    }
+    
+    .box header .h3{
+        font-size: 3.5vw;
+        color: white;
+    }
+    
+ 
+    
+    
+    
+    .box header nav button{
+        font-size: 2vw ;
+        padding: 1v2 1.5vw;
+        width: 18vw;
+      
+    } 
+    
+    .box header nav #iclick{
+        margin-top: 1vw;
+        /* position: absolute; */
+        height: 20vw;
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        background-color: red;
+    }
+    
+    .box header nav i{
+        display: inline-block;
+        font-size: 3vw;
+        color: white;
+    }
+    
+    .box .detail {
+        display: flex;
+        flex-direction: column;
+         margin-top: 12vw;
+        width: 80vw;
+    /* background-color: rgb(207, 255, 192);  */
+    
+    align-items: start
+    ;justify-content: center;gap: 0vw;
+   
+    }
+    
+    .box .detail .left{
+        
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: first baseline;
+        /* background-color: pink; */
+        padding: 0vw 0vw;
+      
+     
+        
+    }
+    
+    .box .detail .left h3{
+        font-size: 3.2vw;
+        color: white;
+        width: 50vw;
+        /* letter-spacing: 0.1vw; */
+    }
+    
+    .box .detail .left p{
+        color: white;
+        font-size: 2vw;
+        width: 45vw;
+        letter-spacing: 0.1vw;
+    }
+    
+    .box .detail .left button{
+        width: 20vw;
+        height: 5vh;
+        font-size: 2.2vw;
+        background-color:  #1998ff;;
+        border: none;
+        border-radius: 20px;
+        color: white;
+    }
+    
+    .box .detail .right{
+        height:30vh;
+        width: 80vw;
+        display: flex;
+        /* place-items: ; */
+        /* padding: 5vw 0vw 0vw 0vw;  */
+        /* justify-content: center; */
+       
+    }
+    
+    .box .detail .right img{
+        height: 28vw;
+        width: 30vw;
+        animation: logo 10s 1s ease-in-out infinite;
+    }
+
+    @keyframes logo {
+
+        0%{
+            transform: translateX(-25vw);
+            rotate: -5deg;
+        }
+
+        50%{
+            transform: translateX(25vw);
+            /* scale: 5; */ rotate: 5deg;
+        }
+        100%{
+            transform: translateX(-25vw); rotate: -5deg;
+        }
+        
+    }
+    
+    
+    .Creative{
+        width:80vw ;
+        display: flex;flex-direction: column;gap: 1vw;
+        margin-top: 2vw;
+    }
+    .Creative h2{
+        width: 80vw;text-align: start;
+        font-size: 4vw;
+
+    }
+    
+    .Creative h1{
+        width: 80vw;text-align: start;
+        font-size: 3.2vw;
+    }
+    
+    .Creative .one{
+        margin-top: 10vw;
+        width: 80vw;
+        display: grid;
+        grid-template-columns: auto ;
+        place-content: center;
+        gap: 2vw;
+    }
+    
+    .Creative .one .box1{
+        width: 40vw;
+        display: flex;flex-direction: column;
+        gap: 1.5vw;
+    
+        /* background-color: pink; */
+    }
+    .Creative .one .box1 img{
+        height: 8vw;
+        width: 8.5vw;
+    }
+    
+    .Creative .one .box1 h4{
+        font-size: 2.9vw;
+    }
+    
+    .Creative .one .box1 p{
+        font-size: 2.3vw;
+        color: gray;width: 35vw;
+    }
+    
+    .Discover{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 7vw;
+    
+    }
+    .Discover .left{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+        width: 80vw;
+        /* background-color: rgb(198, 50, 75); */
+    }
+    
+    .Discover .left h3{
+        width: 30vw;
+        font-size: 3.5vw;
+        /* font-weight: 700; */
+        /* color: gray; */
+    }
+    .Discover .left h2{
+        font-size: 3.3vw;
+    }
+    
+    .Discover .left h4{
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    
+    .Discover .left h5{
+      display: none;
+    }
+    
+    .Discover .left p{
+        
+        font-size: 2.1vw;
+        /* font-weight: 700; */
+        color: gray;
+    }
+    .Discover .left p i{
+        color: black;
+    }
+    
+    .Discover .right{
+        display: grid;
+     place-items: center;
+    
+        width: 80vw;
+        /* background-color: rgb(198, 50, 75); */
+    }
+    .Discover .right img{
+        height: 32vw;
+        width: 40vw;
+    }
+    
+   
+    
+    .slid{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        align-items: center;
+        margin-top: 4vw;
+    }
+    
+    .slid .name{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .slid .name h1{
+        font-size: 3.5vw;
+    }
+    
+    .slid .name button{
+      
+        /* padding: 0.6vw 1vw; */
+        border: none;
+        border: 1px solid black;
+     
+       
+        font-size: 2.2vw;
+    }
+    
+    .slid .name button:hover{
+        background-color:  #1998ff;;
+        color: white;
+        font-size: 550;
+     
+    }
+    
+    
+    .slid .slids{
+        width: 100%;
+        display: flex;gap: 2vw;
+        overflow-x: hidden;
+   
+    }
+    
+  
+    
+    .slid .slids img{
+        border-radius: 20px;
+        height: 25vw;
+        width: 25vw;
+    }
+    
+    .round{
+        width: 15vw;
+        display: flex;
+        gap: 1vw;
+        font-size: 2.2vw;
+    }
+    
+    .slid .four{
+        width: 80vw;
+        display: grid;
+        height: 5vw;
+        /* background-color: pink; */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 5vw;
+    }
+    
+    .slid .four .box2{
+        height: 3.5vw;
+        display: flex;
+        gap: 1vw;
+        /* width: 10vw; */
+        
+    }
+    .slid .four .box2 h2{
+        font-size: 2vw;
+    }
+    
+    .slid .four .box2 p{
+        font-size: 1.5vw;
+    
+    }
+    
+    .pic{
+        margin-top: 4vw;
+        width: 100%;
+    }
+    
+    .pic img{
+        width: 100%;
+    }
+    
+    .logo4{
+        width: 80vw;
+        height: 5vw;
+        margin-top: 5vw;
+        display: flex;align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo4 img{
+        width: 15vw;
+        height: 2.5vw;
+    }
+    
+    
+    .checkout{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+   
+       
+       
+        margin-top: 5vw;
+    }
+    .checkout .one {
+        /* height: 10vw; */
+        display: flex;
+       /* background-color: pink; */
+        gap: 2vw;
+       
+    }
+    .checkout .one .one{
+        display: flex;
+        flex-direction: column;
+    }
+    .checkout .one .one h3{
+        font-size: 2.2vw
+    }
+    
+    .checkout .one .one h1{
+        font-size: 3.2vw;
+    }
+    
+    .checkout .one  h3{
+        font-weight: 500;
+        /* font-size: 1.2vw;
+        background-color: pink; */
+    }
+    
+    .checkout .one .two{
+        text-align: end;
+        width: 30vw;
+        font-size: 1.3vw;
+        display: flex;
+        justify-content: center;
+        gap: 1vw;
+        text-transform: capitalize;
+    }
+    .checkout .one .two i{
+        color: #1998ff;
+    }
+    
+    .checkout .two {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 7vw;
+        align-items: center;
+        gap: 10vw;
+    }
+    
+    .checkout .two .card{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 40vw;
+        height: 50vw;
+        display: flex;
+        margin: 1vw;
+        gap: 3.5vw;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        border-radius: 10px;
+    
+        /* border: 0.1vw solid rgba(200, 198, 198, 0.707); */
+    }
+    
+    
+    .checkout .two .card:nth-child(2){
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    .checkout .two .card:nth-child(2) button{
+        background-color:  #1998ff;;
+        color: white;
+    }
+    /* .checkout .two .card img{
+        height: 3.5vw;
+        width: 3.5vw;
+    } */
+    .checkout .two .card h1{
+        color:  #1998ff;;
+        font-size: 3.5vw;
+    }
+    .checkout .two .card h4{
+        font-size: 3.2vw;
+    }
+    .checkout .two .card img{
+        height: 6vw;
+        width: 6.6vw;
+    }
+    .checkout .two .card p{
+      
+        font-size: 2.1vw;
+        width: 35vw;
+    }
+    
+    .checkout .two .card button{
+        padding: 0.7vw 1.5vw;
+        border: 1px solid  #1998ff;;
+        background-color: white;
+        border-radius: 20px;
+        color: rgb(7, 36, 76);
+        font-size: 1.4vw;
+        text-transform: capitalize;
+    }
+    
+    
+    .checkout .two .card:hover{
+        background-color: #57c7d4;;
+        color: white;
+        transition: 2s;
+    }
+    
+    .checkout .two .card:hover>h1{
+        color: white;
+    }
+    
+    .checkout .two .card:hover>p{
+        color: white;
+    }
+    
+    
+    
+    .data{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15vw;
+    }
+    .data .left{
+        width: 80vw;
+        display: grid;place-content: center;
+    }
+    
+    .data .left img{
+        height: 38vw;
+        width: 38vw;
+    }
+    
+    .data .right {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+        width: 80vw;
+        align-items: center;
+        justify-content: center;
+       
+    
+    }
+    .data .right h1{
+        font-size: 3.5vw;
+    }
+    
+    .data .right p{
+        font-size: 2.3vw;
+    }
+    .data .right form{
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        width: 80vw;
+        align-items: center;
+     
+       
+       
+    }
+    .data .right form input{
+        height: 7vw;
+        width: 28vw;
+        font-size: 1.2vw;
+        padding-left: 1vw;
+        border: 1px solid rgba(19, 19, 19, 0.137);
+        border-radius: 5px;
+    }
+    .data .right form .name{
+        display: flex;
+        gap: 1.5vw;
+    }
+    .data .right form textarea{
+        height: 10vw;
+        margin-top: 1.5vw;
+        width: 37.5vw;
+        border: 1px solid rgba(19, 19, 19, 0.137);
+        border-radius: 5px;
+        padding: 1vw 2vw;
+        font-size: 1.1vw;
+    }
+    
+    .data .right form button{
+        padding: 1vw 1.7vw;
+        width: 15vw;
+        background-color:  #1998ff;;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid transparent;
+        font-size: 1.7vw;
+      
+    }
+    
+     .end{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vw;
+        background-color: #1998ff;
+        color: white;
+       
+    }
+    
+    .end .upper{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        height: 20vw;
+        margin-top: 3vw;
+    }
+    
+    .end .upper .one{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5vw;
+        font-size: 1vw;
+    }
+    .end .upper .one .icon i{
+        font-size: 1.5vw;
+        /* background-color: #57ce08; */
+        padding: 1vw 1.5vw 1vw 0vw;
+    }
+    
+    .end .upper .two{
+        display: flex;
+        /* background-color: red; */
+        gap: 2.5vw;
+    }
+    .end .upper .two .line{
+        display: flex;
+        /* background-color: pink; */
+        flex-direction: column;
+        padding: 0vw 1vw;
+        gap: 1vw;
+    }
+    .end .upper .two .line h4{
+        font-size: 1.3vw;
+    }
+    
+    .end .upper .two .line p{
+        font-size: 1.1vw;
+    }
+    
+    
+    /* .slid .four .box .div */
+    
+    .end .down{
+        height: 5vw;
+        display: flex;
+        width: 100%;
+        padding: 0vw 8vw;
+        align-items: center;
+        gap: 1vw;
+        background-color: #57c7d4;
+        justify-content: space-between;
+    }
+    
+    .end .down h1{
+        font-size: 2vw;
+    }
+    
+    .end .down p{
+        font-size: 1.2vw;
+    }
+    
+    .end .down a{
+        font-size: 0.9vw;
+        text-decoration: none;
+        color: white;
+    }
+    
+}
